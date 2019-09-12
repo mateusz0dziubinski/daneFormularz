@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+     <div id="container1">
+     <h2>Formularz</h2>
+        <form id="idFormularza" action="/action_page.php">
+        Wpisz swoje imię:<br>
+        <input type="text" name="name">
+        <br>
+        Wpisz swoje nazwisko:<br>
+        <input type="text" name="surname">
+        <br><br>
+        Wpisz swój telefon:<br>
+        <input type="number" name="phone">
+        <br><br>
+        <button onclick="mojaFunkcja()">Wyświetl dane</button>
+        </form>
+    </div> 
+    <div id="container">
+        <p>Dane:</p>
+        <p id="name"></p>
+        <p id="surname"></p>
+        <p id="phone"></p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
